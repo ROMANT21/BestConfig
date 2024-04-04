@@ -10,11 +10,7 @@ filetype plugin on 	" Turn on file specific plugins
 set syntax		" Turn on sytax highlighting for filetype
 autocmd FileType python set breakindentopt=shift:4	" Does this work, LOL?
 
-
-set spell		" Enable spell checking
-
 " Navigation 
-set cursorline
 set mouse=a		" Enable mouse
 set relativenumber	" Make line numbering relative
 set incsearch		" Highlight search results
@@ -29,4 +25,3 @@ set wildmode=list:longest	" Make autocompletion list like bash
 set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 
 " Change Folding Settings
-set foldmethod=syntax
