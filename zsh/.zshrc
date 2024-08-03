@@ -7,4 +7,6 @@ plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
-alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+# Aliases
+alias obsidian="/home/roma/AppImages/Obsidian-1.6.7.AppImage"
+alias todo="/home/roma/AppImages/Todoist-linux-9.7.2-x86_64-latest.AppImage"
