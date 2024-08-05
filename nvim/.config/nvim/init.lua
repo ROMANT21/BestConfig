@@ -11,3 +11,4 @@ require('config.keys')
 -- Load lazy plugins
 require('config.lazy')
 vim.cmd("colorscheme tokyonight-night")
+

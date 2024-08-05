@@ -8,3 +8,4 @@ map('n', '<leader>n', ':NvimTreeToggle<CR>', {noremap = true, silent = true})
 
 -- I love finding files
 map('n', '<leader>ff', ':Telescope find_files theme=dropdown<CR>', {noremap = true, silent = true})
+
