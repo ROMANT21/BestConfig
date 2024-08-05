@@ -1,4 +1,10 @@
-local opt = vim.opt
+local opt = vim.opt	-- Vim options
+local g = vim.g		-- Global vars
+
+-- For nvim tree
+g.loaded_netrw = 1
+g.loaded_netrwPlugin = 1
+opt.ma = True
 
 -- Context
 opt.number = true
