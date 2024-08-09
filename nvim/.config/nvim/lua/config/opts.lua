@@ -19,6 +19,7 @@ opt.fileencoding = 'utf8'
 -- Theme
 opt.syntax = 'ON'
 opt.termguicolors = true
+opt.pumheight = 15
 
 -- Search
 opt.ignorecase = true

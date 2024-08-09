@@ -6,7 +6,7 @@ return {
         style = "moon",
         styles = {
             comments = { italic = true },
-            keywords = { underline = true, bold = true},
+            keywords = { underline = true, italic = false},
             functions = { bold = true }
         }
     },
